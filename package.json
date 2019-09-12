@@ -1,0 +1,14 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "AWS Signature V4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Wayne Shen",
+  "license": "",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
