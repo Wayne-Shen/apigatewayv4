@@ -46,3 +46,20 @@ const request = {
     request
   );
 ```
+
+
+### example with axios
+
+```javascript
+    request.headers["Authorization"] = apigatewayv4.calculateAuthorization(
+    options,
+    request
+  );
+
+  try {
+    const response = await axios(request);
+    console.log(response.data);
+  } catch (e) {
+     console.log(e);
+  }
+```
